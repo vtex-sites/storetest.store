@@ -2599,7 +2599,19 @@
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-google-tag-manager/-/gatsby-plugin-google-tag-manager-0.311.0.tgz#fa269daa2d7b45dbe9e6257a6c3ad89e4eaa9903"
   integrity sha512-rbm2p4CYAHN+NYSnyEEBOtmJbM+1UoegEZ32cUNaEs9byjIxoRYZG9DSIjRgbFTPp+FD6yrFl40yWflKmFOH/A==
 
-"@vtex/gatsby-plugin-graphql@0.311.0", "@vtex/gatsby-plugin-graphql@^0.311.0":
+"@vtex/gatsby-plugin-graphql@0.318.1":
+  version "0.318.1"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-graphql/-/gatsby-plugin-graphql-0.318.1.tgz#f95d3a0f591cce7c30bc0f76cdba18a0594cacff"
+  integrity sha512-SvQdrMwMeLWOhwALpMxCOVIrTZMA33JYWWetLFTLu/CTKkbaKi3ImXN5Tm+3PKWK0fncxZXAxMnn8ST+wO+RbQ==
+  dependencies:
+    "@graphql-codegen/core" "^1.17.7"
+    "@graphql-codegen/plugin-helpers" "^1.17.7"
+    "@graphql-codegen/typescript" "^1.17.7"
+    "@graphql-codegen/typescript-operations" "^1.17.7"
+    "@graphql-tools/relay-operation-optimizer" "^6.0.15"
+    fs-extra "^9.0.1"
+
+"@vtex/gatsby-plugin-graphql@^0.311.0":
   version "0.311.0"
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-graphql/-/gatsby-plugin-graphql-0.311.0.tgz#fe36d7a595d58f481a7c9f92abcc3ab56a0995b8"
   integrity sha512-sCPbPZgFh+ihtYrJPKzL9AeousIJzkcK3tc9awQPzcm64RfReE7HL9E0l+BxV1M4LMnYO86jaLBc4DLT5XuI2w==
